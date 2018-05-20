@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: panyuanyuan
+    password: ZTEywz0225
+    url: jdbc:mysql://139.196.141.5:3306/jiankun_test
+  thymeleaf:
+    suffix: .html
+    prefix: classpath:/templates/
+    mode: HTML
+    cache: false
+
+server:
+  port: 8080
